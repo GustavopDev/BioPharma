@@ -1,0 +1,253 @@
+.section-reviews-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 7em 0.5em 7em 0.1em; /* Reduz o padding */
+    max-width: 100%; /* Limita a largura máxima */
+}
+
+.container-reviews-second {
+    max-width: 437px; /* Limita a largura máxima do contêiner */
+    max-height: 1200px;
+}
+
+.swiper-wrapper-second {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza os slides */
+    padding: 1em;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.review-card-second {
+    position: relative;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em 2em;
+    margin: 15px; /* Espaçamento entre os cards */
+    box-sizing: border-box;
+}
+
+.review-card-second:hover{
+    background-color: var(--cor-de-fundo1);
+}
+
+.review-content-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+
+.image-second {
+    width: 80px;
+    border-radius: 100%;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites */
+}
+
+.image-second img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.reviewer-name-second {
+    color: var(--cor-titulo);
+    font-weight: 700;
+    font-size: 16px;
+    display: block;
+}
+
+.comment-second {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: var(--cor-subtitulo);
+}
+
+.stars-second {
+    display: flex;
+    justify-content: center;
+    color: #50b1f9;
+}
+
+.stars-second i {
+    padding: 0 0.1em;
+}
+
+.titulo-avaliacoes{
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--cor-titulo);
+    padding-bottom: 1em;
+}
+
+.substitulo-avaliacoes{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--cor-subtitulo);
+    padding-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1500px) {
+    .section-reviews-second {
+        padding: 3em 0.5em 3em 0.1em; /* Reduz o padding */
+    }
+
+    .container-reviews-second {
+        width: 90%; /* Aumenta a largura relativa */
+        max-width: 380px; /* Reduz a largura máxima do contêiner */
+    }
+
+    .review-card-second {
+        padding: 2em 2em; /* Reduz o padding dos cards */
+        width: 200px; /* Reduz a largura dos cards */
+        margin: 15px; /* Reduz o espaçamento entre os cards */
+    }
+
+    .image-second {
+        width: 60px; /* Reduz a largura da imagem */
+        margin-bottom: 15px; /* Reduz o espaçamento abaixo da imagem */
+    }
+
+    .name-comment-second {
+        font-size: 12px; /* Reduz o tamanho da fonte */
+    }
+
+    .reviewer-name-second {
+        font-size: 14px; /* Reduz o tamanho da fonte */
+    }
+
+    .comment-second {
+        font-size: 12px; /* Reduz o tamanho da fonte */
+        padding-bottom: 15px; /* Reduz o espaçamento abaixo do comentário */
+    }
+
+    .titulo-avaliacoes {
+        font-size: 22px; /* Reduz o tamanho da fonte do título */
+    }
+
+    .substitulo-avaliacoes {
+        font-size: 13px; /* Reduz o tamanho da fonte do subtítulo */
+        padding-bottom: 1.5em; /* Reduz o espaçamento abaixo do subtítulo */
+    }
+}
+
+
+@media (max-width: 1220px) {
+    .section-reviews-second {
+        padding: 3em 0.5em 3em 0.1em; /* Reduz o padding */
+    }
+
+    .container-reviews-second {
+        width: 90%; /* Aumenta a largura relativa */
+        max-width: 330px; /* Reduz a largura máxima do contêiner */
+    }
+
+    .review-card-second {
+        padding: 1.5em 1.5em; /* Reduz o padding dos cards */
+        width: 180px; /* Reduz ainda mais a largura dos cards */
+        margin: 10px; /* Reduz o espaçamento entre os cards */
+    }
+
+    .image-second {
+        width: 50px; /* Reduz ainda mais a largura da imagem */
+        margin-bottom: 10px; /* Reduz o espaçamento abaixo da imagem */
+    }
+
+    .name-comment-second {
+        font-size: 10px; /* Reduz ainda mais o tamanho da fonte */
+    }
+
+    .reviewer-name-second {
+        font-size: 12px; /* Reduz ainda mais o tamanho da fonte */
+    }
+
+    .comment-second {
+        font-size: 10px; /* Reduz ainda mais o tamanho da fonte */
+        padding-bottom: 10px; /* Reduz o espaçamento abaixo do comentário */
+    }
+
+    .titulo-avaliacoes {
+        font-size: 20px; /* Reduz ainda mais o tamanho da fonte do título */
+    }
+
+    .substitulo-avaliacoes {
+        font-size: 12px; /* Reduz ainda mais o tamanho da fonte do subtítulo */
+        padding-bottom: 1em; /* Reduz o espaçamento abaixo do subtítulo */
+    }
+}
+
+
+@media (max-width: 950px) {
+    .section-reviews-second {
+        padding: 3em 0.5em 3em 0.1em; /* Reduz o padding */
+    }
+
+    .container-reviews-second {
+        width: 40%; /* Aumenta a largura relativa */
+        max-width: 250px; /* Reduz a largura máxima do contêiner */
+    }
+
+    .review-card-second {
+        padding: 1.5em 1.5em; /* Reduz o padding dos cards */
+        width: 180px; /* Reduz ainda mais a largura dos cards */
+        margin: 10px; /* Reduz o espaçamento entre os cards */
+    }
+}
+
+
+@media (max-width: 700px) {
+    .section-reviews-second {
+        padding: 3em 0.5em 3em 0.1em; /* Reduz o padding */
+    }
+}
+
+
+@media (max-width: 700px) {
+    .section-reviews-second {
+        flex-direction: column; /* Muda a direção dos itens para coluna */
+        padding: 2em; /* Ajusta o padding para melhor visualização */
+    }
+
+    .container-reviews-second {
+        width: 20em; /* Ajusta a largura para 100% */
+        max-width: none; /* Remove a limitação de largura máxima */
+    }
+
+    .swiper-wrapper-second {
+        flex-direction: column; /* Muda a direção dos itens para coluna */
+    }
+
+    .review-card-second {
+        width: 100%; /* Ajusta a largura para 100% */
+        max-width: none; /* Remove a limitação de largura máxima */
+        margin: 10px 0; /* Ajusta a margem para melhor espaçamento vertical */
+    }
+}

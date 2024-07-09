@@ -1,0 +1,138 @@
+.container-auto-ajuda {
+    background-color: #fff;
+    font-family: var(--fonte);
+}
+
+.auto-ajuda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3em 0 0 0;
+}
+
+.card-ajuda {
+    border: 1px solid var(--cor-de-fundo1);
+    border-radius: 7px;
+    box-shadow: 0px 0px 2px 0px #50b1f9;
+    background-color: #fff;
+
+    margin: 1em;
+    padding: 0.5em 2em;
+    width: 14.1em;
+    height: 10em;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-ajuda:hover {
+    background-color: var(--cor-de-fundo1);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+}
+
+.card-ajuda img {
+    width: 76px;
+}
+
+.card-ajuda p {
+    padding-top: 1.5em;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--cor-titulo);
+}
+
+
+
+@media (max-width: 1200px) {
+        .card-ajuda {
+        width: 8em;
+        height: 9.5em;
+    }
+
+    .card-ajuda img {
+        width: 70px;
+    }
+    
+    .card-ajuda p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 800px) {
+    .card-ajuda {
+        width: 6em;
+        height: 7.6em;
+    }
+
+    .card-ajuda img {
+        width: 53px;
+    }
+
+    .card-ajuda p {
+        font-size: 10px;
+        padding-top: 0.2em;
+    }
+
+    .auto-ajuda {
+        padding: 1em 0 0 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .auto-ajuda {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-ajuda {
+        width: 9em;
+        height: 6.8em;
+    }
+}
+
+
+
+@media (max-width: 440px) {
+    .auto-ajuda {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card-ajuda img {
+        width: 48px;
+    }
+
+    .card-ajuda {
+        width: calc(33.33% - 2em);
+        height: 6.4em;
+        margin: 0.5em;
+    }
+}
+
+@media (max-width: 400px) {
+    .card-ajuda {
+        height: 6.2em;
+    }
+    .card-ajuda p {
+        font-size: 9px;
+        padding-top: 0.2em;
+    }
+}
+
+@media (max-width: 364px) {
+    .card-ajuda {
+        height: 7em;
+    }
+    .card-ajuda p {
+        font-size: 9px;
+        padding-top: 0.2em;
+    }
+}
+
+
+

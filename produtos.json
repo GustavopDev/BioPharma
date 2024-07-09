@@ -1,0 +1,605 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Vick VapoRub Descongestionante Pomada 12g",
+      "preco": "R$17,98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe1.png",
+      "avaliacao": 4.5
+    },
+    {
+      "id": 2,
+      "titulo": "Decongex Plus 12 comprimidos",
+      "preco": "R$26,98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe2.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 3,
+      "titulo": "Coristina D Pro Cloridrato 16 comprimidos",
+      "preco": "R$29,98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe3.png",
+      "avaliacao": 4.5
+    },
+    {
+      "id": 4,
+      "titulo": "Perfenol Paracetamol 400mg",
+      "preco": "R$23,98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe4.png",
+      "avaliacao": 4.5
+    },   
+    {
+      "id": 5,
+      "titulo": "Decongex Plus Xarope 120ml",
+      "preco": "R$23,98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe5.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 6,
+      "titulo": "Expec Tripla Ação Xarope 120ml",
+      "preco": "R$39,98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe6.png",
+      "avaliacao": 4.5
+    },
+    {
+      "id": 7,
+      "titulo": "Benegrip Dipirona 20 comprimidos",
+      "preco": "R$35,98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe7.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 8,
+      "titulo": "Cimegripe Cloridrato 20 cápsulas",
+      "preco": "R$17,98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe8.png",
+      "avaliacao": 4.5
+    },
+    {
+      "id": 9,
+      "titulo": "Resfenol Paracetamol 400mg 5 cápsulas",
+      "preco": "R$7,98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe9.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 10,
+      "titulo": "Neolefrin Paracetamol 800mg 20 comprimidos",
+      "preco": "R$29,98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe10.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 11,
+      "titulo": "Naldecon Multi Paracetamol 800mg 16 comprimidos",
+      "preco": "R$17.98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe11.png",
+      "avaliacao": 4.5
+    }, 
+    {
+      "id": 12,
+      "titulo": "Benegrip Dipirona 6 comprimidos",
+      "preco": "R$13.98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe12.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 13,
+      "titulo": "Imune Gripe - Vacina Homeopática 30ml",
+      "preco": "R$75.98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe13.png",
+      "avaliacao": 4.5
+    },
+    {
+      "id": 14,
+      "titulo": "Chá para Gripe Vick Pyrena Sabor Maçã e Canela 5g",
+      "preco": "R$3.98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe14.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 15,
+      "titulo": "Vick Pyrena Grip 7 10 Comprimidos",
+      "preco": "R$9.98",
+      "departamentos": "Gripe e Resfriado",
+      "imagem": "imagens/remedios-gripe/gripe15.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 16,
+      "titulo": "Luva proficional com munhequeira academia",
+      "preco": "R$63.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia1.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 17,
+      "titulo": "Galão acdemia tank garrafa água 2 litros BodyAction",
+      "preco": "R$26.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia2.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 18,
+      "titulo": "Corda de pular com contador Fitness Academia",
+      "preco": "R$29.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia3.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 19,
+      "titulo": "Termogênico Thermo Flame Black Skull 60 tabletes Black Skull",
+      "preco": "R$29.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia4.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 20,
+      "titulo": "Luva de academia Neoprene suporte em couro",
+      "preco": "R$49.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia5.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 21,
+      "titulo": "Garrafa academia coqueteleira 700ml Max Titanium",
+      "preco": "R$28.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia6.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 22,
+      "titulo": "Whey Protein Darkness 100% Concentrado Darkwhey",
+      "preco": "R$129.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia7.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 23,
+      "titulo": "Whey Protein Integralmédica Nutri Whey Baunilha 907g",
+      "preco": "R$69.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia8.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 24,
+      "titulo": "Whey Pro Max Titanium Baunilha 1kg",
+      "preco": "R$79.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia9.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 25,
+      "titulo": "Creatina Black Skull Creatine Turbo 300g",
+      "preco": "R$89.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia10.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 26,
+      "titulo": "Creatina Integralmedica Hardcore 300g",
+      "preco": "R$99.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia11.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 27,
+      "titulo": "Creatina Max Titanium 100% Pura 300g",
+      "preco": "R$110.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia12.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 28,
+      "titulo": "Whey Protein Concentrado Chocolate 900g",
+      "preco": "R$189.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia13.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 29,
+      "titulo": "Creatina Monohidratada Dux Nutrition Lab 300g em Pó",
+      "preco": "R$110.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia14.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 30,
+      "titulo": "Cafeína 200mg Dux Nutrition Lab 90 Cápsulas",
+      "preco": "R$69.98",
+      "departamentos": "Fitness e Nutrição",
+      "imagem": "imagens/academia/academia15.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 31,
+      "titulo": "Shampoo Anticaspa Clear Men Limpeza Diária 2 em 1 com 400ml",
+      "preco": "R$24.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene1.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 32,
+      "titulo": "Kit Elseve Reparação Total 5 Shampoo e Condicionador",
+      "preco": "R$25.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene2.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 33,
+      "titulo": "Desodorante Antitranspirante Aerosol Dove Original",
+      "preco": "R$24.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene3.svg",
+      "avaliacao": 4.5
+    },        
+    {
+      "id": 34,
+      "titulo": "Fralda Geriátrica Needs ClassicCare P/M Absorção Moderada",
+      "preco": "R$25.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene4.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 35,
+      "titulo": "Escova de Dente Elétrica Philips Colgate SonicPro 10",
+      "preco": "R$209.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene5.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 36,
+      "titulo": "Enxaguante Bucal Sem Álcool Closeup Red Hot Proteção 360°",
+      "preco": "R$8.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene6.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 37,
+      "titulo": "Camisinha Jontex Lubrificado 8 unidades",
+      "preco": "R$15.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene7.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 38,
+      "titulo": "Loção Hidratante Facial CeraVe 52ml Cerave",
+      "preco": "R$79.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene8.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 39,
+      "titulo": "Hidratante Facial Nívea Antissinais Creme 100g Nivea",
+      "preco": "R$32.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene9.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 40,
+      "titulo": "Sérum Anti-idade La Roche-Posay Pure vitamin C10 30ml",
+      "preco": "R$239.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene10.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 41,
+      "titulo": "Sérum Hidratante Facial Concentrado Neutrogena Hydro Boost 30ml",
+      "preco": "R$119.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene11.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 42,
+      "titulo": "CREME HIDRATANTE NIVEA LATA 56G NIVEA Nivea",
+      "preco": "R$16.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene12.svg",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 43,
+      "titulo": "Kit Beleza Escovas De Cabelo Para o Dia a Dia",
+      "preco": "R$89.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene13.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 44,
+      "titulo": "Hidratante Facial Nívea Beleza Radiante 7 em 1 Pele Negra 100g",
+      "preco": "R$29.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene14.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 45,
+      "titulo": "Hidratante Corporal Cuidado Intenso - Nivea - 400ml",
+      "preco": "R$27.98",
+      "departamentos": "Higiene e Beleza",
+      "imagem": "imagens/higiene/higiene15.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 46,
+      "titulo": "Ozempic Semaglutida 1mg",
+      "preco": "R$1098.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos1.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 47,
+      "titulo": "Nimesulida 100mg Genérico Eurofarma 12 Comprimidos",
+      "preco": "R$16.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos2.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 48,
+      "titulo": "Tadalafila 20mg Genérico Neo Química 4 Comprimidos",
+      "preco": "R$25.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos2.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 49,
+      "titulo": "Glifage XR 500mg Merck S/A 30 comprimidos",
+      "preco": "R$9.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos3.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 50,
+      "titulo": "Pregabalina 75mg Genérico Medley 30 Cápsulas",
+      "preco": "R$49.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos4.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 51,
+      "titulo": "Xigduo XR 5mg + 1000mg Astrazeneca 60 Comprimidos",
+      "preco": "R$198.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos3.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 52,
+      "titulo": "Pantoprazol 40mg Genérico EMS 42 comprimidos",
+      "preco": "R$39.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos2.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 53,
+      "titulo": "Prednisolona 20mg Genérico EMS 10 Comprimidos",
+      "preco": "R$9.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos2.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 54,
+      "titulo": "Inzelm 20mg Takeda 30 Comprimidos",
+      "preco": "R$189.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos3.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 55,
+      "titulo": "Glyxambi 25mg Boehringer 30 Comprimidos",
+      "preco": "R$398.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos3.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 56,
+      "titulo": "Dutam 0,5mg + 0,4mg Zodiac 30 Cápsulas",
+      "preco": "R$109.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos4.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 57,
+      "titulo": "Tadalafila 5mg Genérico Eurofarma 30 Comprimidos",
+      "preco": "R$99,98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos2.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 58,
+      "titulo": "Maleato de Dexclorfeniramina",
+      "preco": "R$1.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos5.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 59,
+      "titulo": "Aerolin 100mcg/dose GSK 200 Doses Spray",
+      "preco": "R$23.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos6.png",
+      "avaliacao": 4.5
+    },    
+    {
+      "id": 60,
+      "titulo": "Avamys 27,5mcg GSK 120 Doses Spray Nasal",
+      "preco": "R$69.98",
+      "departamentos": "Medicamentos",
+      "imagem": "imagens/remedios/medicamentos7.png",
+      "avaliacao": 4.5
+    },
+    {
+      "id": 61,
+      "titulo": "Aparelho medidor de pressão arterial digital de braço",
+      "preco": "R$149,98",
+      "departamentos": "Aparelhos",
+      "imagem": "imagens/eletronicos/eletronicos1.png",
+      "avaliacao": 4.5
+    },
+    {
+        "id": 62,
+        "titulo": "Oxímetro digital portátil para dedo",
+        "preco": "R$49,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos2.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 63,
+        "titulo": "Monitor De pressão arterial de braço",
+        "preco": "R$398,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos3.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 64,
+        "titulo": "Monitor de pressão arterial De braço Multilaser",
+        "preco": "R$189,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos4.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 65,
+        "titulo": "Monitor de pressão arterial de braço",
+        "preco": "R$179,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos5.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 66,
+        "titulo": "Inalador Nebulizador Ultrassônico",
+        "preco": "R$159,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos6.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 67,
+        "titulo": "Inalador Compressor Omron InalaPop",
+        "preco": "R$195,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos7.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 68,
+        "titulo": "Inalador Nebulizador De Ar Comprimido Portátil",
+        "preco": "R$129,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos8.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 69,
+        "titulo": "Inalador Compressor Multilaser Compact",
+        "preco": "R$109,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos9.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 70,
+        "titulo": "Inalador Nebulizador De Rede Vibratória",
+        "preco": "R$269,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos10.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 71,
+        "titulo": "Kit medidor de glicose ACTIVE COMBO",
+        "preco": "R$229,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos11.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 72,
+        "titulo": "Medidor de glicose ACCU-CHEK ACTIVE",
+        "preco": "R$179,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos12.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 73,
+        "titulo": "Medidor De Glicose FreeStyle Optinum",
+        "preco": "R$74,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos13.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 74,
+        "titulo": "Termômetro digital de pulso bluetooth",
+        "preco": "R$139,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos14.png",
+        "avaliacao": 4.5
+    },
+    {
+        "id": 75,
+        "titulo": "Termômetro digital barbie infantil kids",
+        "preco": "R$17,98",
+        "departamentos": "Aparelhos",
+        "imagem": "imagens/eletronicos/eletronicos15.png",
+        "avaliacao": 4.5
+    } 
+  ]
+}
+

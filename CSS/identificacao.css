@@ -1,0 +1,639 @@
+:root {
+    --cor-de-fundo1: #ebf5fb;
+    --cor-fundo-icones: #50b1f9;
+    --cor-do-botao: #100E67;
+    --cor-titulo: #282828;
+    --cor-subtitulo: #7f7b7b;
+
+    --fonte: "Poppins";
+}
+
+.container-identificacao {
+    font-family: var(--fonte);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Altere para flex-start para permitir que os itens se alinhem ao topo */
+    min-height: 120vh; /* Use min-height para ocupar a altura total da tela */
+    background-color: var(--cor-de-fundo1);
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 160px; /* Ajuste conforme necessário */
+    margin-bottom: 50px; /* Ajuste conforme necessário */
+}
+
+
+.product-card, .identificacao, .endereco {
+    background-color: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.product-card {
+    width: 800px;
+    color: var(--cor-titulo);
+}
+
+.product-header {
+    font-weight: bold;
+    margin-bottom: 2em;
+    font-size: 17px;
+    color: var(--cor-titulo);
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: var(--cor-de-fundo1);
+    padding: 0.7em;
+}
+
+.xxx{
+    color: var(--cor-subtitulo);
+}
+
+.info-cards,
+.identificacao,
+.endereco {
+    height: 200px;
+}
+
+.product-name {
+    flex: 2;
+    margin-left: 20px;
+}
+
+.product-price,
+.total-price {
+    flex: 1;
+    margin: 1em;
+    text-align: center;
+}
+
+.total-price{
+    font-weight: 700;
+}
+
+.prod-quantidade {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-input {
+    width: 50px;
+    height: 29px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.quantity-btn {
+    background-color: #ccc;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0 5px; /* Adicionando margem para separar os botões */
+}
+
+.quantity-btn:hover {
+    background-color: var(--cor-fundo-icones);
+}
+
+
+.delete-icon {
+    flex: 0.5;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    color: red;
+}
+
+.delete-icon:hover {
+    color: darkred;
+}
+
+.info-cards {
+    display: flex;
+    width: 280px;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.fundoooo {
+    width: 100%;
+    height: 28px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+.quantity-input{
+    width: 40px;
+    height: 23px;
+    border-radius: 0;
+}
+
+button{
+    padding: 0.4em 0.6em;
+    border-radius: 0px;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: var(--cor-fundo-icones);
+}
+
+button:hover{
+    border: 1px solid transparent;
+    background-color: #111e49;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: var(--cor-titulo);
+    font-size: 19,5px;
+    font-weight: 700;
+}
+
+.subtitulo-indent-endereco{
+    font-size: 12px;
+    color: var(--cor-subtitulo);
+}
+
+.bi-trash3{
+    color: var(--cor-subtitulo);
+}
+
+.bi-trash3:hover{
+    color: var(--cor-fundo-icones);
+}
+
+.fundoooo{
+    background-color: #f7f7f7;
+    height: 26px;
+}
+
+/* Estilos para o novo card de total do pedido */
+.total-card {
+    display: block;
+    justify-content: initial;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    padding: 20px;
+    width: 220px;
+    margin: 10px 0 0 0.7em;
+}
+
+.total-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.total-card h2{
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 0.5em;
+}
+
+.finalizar-btn {
+    background-color: var(--cor-fundo-icones);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.finalizar-btn:hover {
+    background-color: #111e49;
+}
+
+.total-price{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
+    color: var(--cor-titulo);
+}
+
+.total-quantidade{
+    font-size: 14px;
+    padding: 1em 0;
+    border-bottom: 1px solid #ccc;
+    color: var(--cor-subtitulo);
+}
+
+.product-name{
+    color: var(--cor-subtitulo);
+}
+
+span{
+    color: var(--cor-titulo);
+    font-weight: 700;
+}
+
+
+
+/* Estilos para tornar a página responsiva em telas com largura de até 1200px */
+@media (max-width: 1200px) {
+    .product-card {
+        width: 600px; /* Ajuste a largura conforme necessário */
+    }
+
+    .info-cards, .identificacao, .endereco, .total-card {
+        width: 180px; /* Ajuste a largura conforme necessário */
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    .product-card {
+        width: 500px; /* Ajuste a largura conforme necessário */
+    }
+
+    .info-cards, .identificacao, .endereco, .total-card {
+        width: 150px; /* Ajuste a largura conforme necessário */
+    }
+    .total-price{
+        padding-left: 1em;
+        font-size: 11px;
+    }
+    .product-name{
+        font-size: 11px;
+    }
+    .product-price{
+        font-size: 11px;
+    }
+    .bi-trash3{
+        font-size: 15px;
+    }
+
+    .total-card h2{
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .container {
+        flex-direction: column;
+        align-items: center; /* Centraliza os itens dentro do container */
+        margin-top: 150px; /* Ajuste conforme necessário */
+    }
+
+    .container-identificacao{
+        height: 85em;
+    }
+
+    .product-cards-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Centraliza os cards dentro do wrapper */
+        gap: 10px;
+        width: 100%; /* Garante que o wrapper ocupe 100% da largura */
+    }
+
+    .product-card {
+        width: 90vw;
+        margin: 10px 0; /* Adicione margem vertical para separar os cards */
+    }
+
+    .product-details {
+        display: flex;
+    }
+
+    .product-image {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 8px;
+        background-color: var(--cor-de-fundo1);
+        padding: 0.7em;
+        margin-bottom: 10px; /* Espaço entre a imagem e os detalhes do produto */
+    }
+
+    .delete-icon, .product-price, .prod-quantidade, .total-price {
+        width: 100%;
+        text-align: center; /* Centraliza o texto */
+        margin: 10px 0;
+    }
+
+    .product-name {
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .total-details {
+        align-items: center; /* Centraliza os detalhes totais */
+    }
+
+    .total-price, .total-quantidade {
+        text-align: center; /* Centraliza o texto */
+        margin: 5px 0;
+        padding: 0;
+    }
+
+    .quantity-input, .quantity-btn, button {
+        width: 50px;
+    }
+
+    .finalizar-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .info-cards, .identificacao, .endereco, .total-card {
+        width: 300px; /* Ajuste a largura conforme necessário */
+        margin-right: 3.5em;
+    }
+
+    .product-image{
+        width: 100px;
+        height: 100px;
+    }
+   
+}
+
+@media (max-width: 600px) {
+    .product-image{
+        width: 60px;
+        height: 60px;
+    }
+    .quantity-input, .quantity-btn, button {
+        width: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .product-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%; /* Garante que o card ocupe 100% da largura */
+        margin: 10px 0; /* Adicione margem vertical para separar os cards */
+    }
+
+    .product-details {
+        display: flex;
+        width: 100%;
+    }
+
+    .product-name,
+    .product-price {
+        display: flex;
+        justify-content: space-between; /* Nome e preço lado a lado */
+        width: 100%;
+    }
+
+    .prod-quantidade,
+    .total-price,
+    .delete-icon {
+        display: flex;
+        justify-content: space-between; /* Input, total e ícone de lixeira lado a lado */
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .prod-quantidade {
+        flex: 2;
+        margin: 0 5px;
+    }
+
+    .total-price,
+    .delete-icon {
+        flex: 1;
+        margin: 0 5px;
+    }
+
+    .product-image {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 8px;
+        background-color: var(--cor-de-fundo1);
+        padding: 0.7em;
+        margin-bottom: 10px; /* Espaço entre a imagem e os detalhes do produto */
+        align-self: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .product-card {
+        display: flex;
+        flex-direction: column;
+        width: 91%; /* Garante que o card ocupe 100% da largura */
+        margin: 10px 0; /* Adicione margem vertical para separar os cards */
+    }
+
+    .product-details {
+        display: grid;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: 1fr 1fr; /* Duas colunas de largura igual */
+        gap: 10px;
+        width: 300px;
+    }
+
+    .product-name {
+        grid-column: 3 / 2 ; /* Ocupa a primeira coluna */
+        text-align: center;
+        margin: 0;
+    }
+
+    .product-price {
+        grid-column: 3 / 4; /* Ocupa a segunda coluna */
+        text-align: center;
+    }
+
+    .prod-quantidade {
+        grid-column: 2 / 3; /* Ocupa ambas as colunas na terceira linha */
+        grid-row: 2 / 3;
+        text-align: center;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .quantity-input, .quantity-btn, button {
+        width: 40px;
+    }
+
+    .total-price {
+        grid-column: 1 / 2; /* Ocupa a primeira coluna na segunda linha */
+        grid-row: 2 / 3;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .delete-icon {
+        grid-column: 4 / 3; /* Ocupa a segunda coluna na segunda linha */
+        grid-row: 2 / 3;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .bi-trash3{
+        font-size: 18px;
+        padding-left: 0.8em;
+    }
+
+    .product-image {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 8px;
+        background-color: var(--cor-de-fundo1);
+        padding: 0.7em;
+        margin-bottom: 10px; /* Espaço entre a imagem e os detalhes do produto */
+        align-self: center;
+    }
+
+    .logo-nav{
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .product-details {
+        width: 240px;
+    }
+    .product-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .quantity-input, .quantity-btn, button {
+        width: 30px;
+    }
+    .info-cards, .identificacao, .endereco, .total-card {
+        width: 230px; /* Ajuste a largura conforme necessário */
+        margin-right: 3em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.efeito-carregamento img{
+    width: 150px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+div.pre-carregamento {
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; 
+
+    background: linear-gradient(to right, #ffffff, #d1dcff);
+    -webkit-animation: nebulahero 20s infinite linear;
+}
+
+@keyframes background { 
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  50% {
+    background-position: 100% 50%;
+  }
+  
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 2s;
+}
+
+.left-half {
+  transform: translateX(-100%);
+}
+
+.right-half {
+  transform: translateX(100%);
+}
+
+.show .left-half {
+  transform: translateX(0);
+}
+
+.show .right-half {
+  transform: translateX(0);
+}
+
+
+
+.cursor-dot{
+    width: 5px;
+    height: 5px;
+    background-color: #111e49;
+  }
+  
+  .cursor-outline {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #111e49;
+  }
+  
+  .cursor-dot,
+  .cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  

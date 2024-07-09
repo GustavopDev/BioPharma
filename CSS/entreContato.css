@@ -1,0 +1,237 @@
+.container-apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-de-fundo1);
+    padding: 5em 0;
+}
+
+.apresentacao {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1em;
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.laterais {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding-right: 4em;
+    max-width: 260px; /* Limita a largura máxima */
+}
+
+.laterais-esquerda {
+    grid-column: 1 / 2; /* Posiciona no lado esquerdo */
+    grid-template-rows: repeat(2, auto); /* Organiza imagens em duas linhas */
+}
+
+.laterais-direita {
+    grid-column: 3 / 4; /* Posiciona no lado direito */
+    grid-template-rows: repeat(2, auto); /* Organiza imagens em duas linhas */
+}
+
+.meio {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5em 5em 1em 5em;
+    border: 20px solid white;
+    background-color: #F4FAFD;
+    border-radius: 7px;
+    grid-column: 2 / 3; /* Ocupa a coluna central */
+}
+
+.meio h1 {
+    width: 400px;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--cor-titulo);
+    padding-bottom: 0.5em;
+    margin: 0 auto;
+}
+
+.meio p {
+    width: 400px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--cor-subtitulo);
+    padding-bottom: 1em;
+    margin: 0 auto;
+}
+
+.meio img {
+    width: 380px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.cards-apresentacao img {
+    width: 100%; /* Ajusta para ocupar todo o espaço disponível */
+    border: 20px solid white;
+    border-radius: 7px;
+    padding: 0.5em;
+}
+
+.contato-doutor {
+    margin: 1em 0 1.5em 0;
+    text-align: center;
+}
+
+.contato-doutor a {
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid transparent;
+    background-color: #50b1f9;
+    box-shadow: 0px 2px 10px 0px #50b1f9;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contato-doutor a:hover {
+    background-color: #111e49;
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    .meio {
+        max-width: 300px; /* Reduz a largura máxima do card maior */
+        padding: 1em;
+    }
+
+    .meio h1 {
+        width: 100%;
+        font-size: 22px; /* Reduz a fonte do título */
+    }
+
+    .meio p {
+        width: 100%;
+        font-size: 10px; /* Reduz a fonte do subtítulo */
+    }
+
+    .meio img {
+        width: 280px; /* Reduz a largura da imagem */
+    }
+
+    .laterais-esquerda, .laterais-direita {
+        max-width: 200px; /* Reduz a largura máxima dos cards laterais */
+        padding-right: 2em; /* Ajusta o padding para manter espaço */
+    }
+
+    .cards-apresentacao img {
+        width: 100%;
+        border: 15px solid white; /* Reduz a borda das imagens */
+        padding: 0.25em; /* Reduz o padding das imagens */
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .meio {
+        order: 1;
+        width: 100%;
+        max-width: 400px;
+        padding: 1.5em 2em 1em 2em;
+        margin-bottom: 2em; /* Espaço entre o card do meio e os cards laterais */
+    }
+
+    .laterais-esquerda, .laterais-direita {
+        order: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        width: 100%;
+        max-width: 520px; /* 260px cada coluna */
+        padding: 0; /* Remove padding lateral */
+    }
+
+    .laterais-esquerda img, .laterais-direita img {
+        width: 13em;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .meio {
+        max-width: 250px; /* Reduz a largura máxima do card maior */
+        padding: 1em; /* Ajusta o padding */
+    }
+
+    .meio h1 {
+        font-size: 20px; /* Reduz a fonte do título */
+    }
+
+    .meio p {
+        font-size: 12px; /* Reduz a fonte do subtítulo */
+    }
+
+    .meio img {
+        width: 200px; /* Reduz a largura da imagem */
+    }
+
+    .laterais {
+        max-width: 300px; /* Reduz a largura máxima dos cards laterais */
+        padding-right: 2em; /* Ajusta o padding para manter espaço */
+    }
+
+    .cards-apresentacao img {
+        width: 8em;
+        border: 10px solid white; /* Reduz a borda das imagens */
+        padding: 0.25em; /* Reduz o padding das imagens */
+    }
+}
+
+
+@media (max-width: 406px) {
+    .meio {
+        max-width: 180px; /* Reduz a largura máxima do card maior */
+        padding: 1em; /* Ajusta o padding */
+    }
+
+    .meio h1 {
+        font-size: 17px; /* Reduz a fonte do título */
+    }
+
+    .meio p {
+        font-size: 10px; /* Reduz a fonte do subtítulo */
+    }
+
+    .meio img {
+        width: 150px; /* Reduz a largura da imagem */
+    }
+
+    .laterais {
+        max-width: 15.5em; /* Reduz a largura máxima dos cards laterais */
+        padding-right: 1em; /* Ajusta o padding para manter espaço */
+    }
+
+    .cards-apresentacao img {
+        width: 97px;
+        border: 10px solid white; /* Reduz a borda das imagens */
+        padding: 0.25em; /* Reduz o padding das imagens */
+    }
+
+    .contato-doutor {
+        margin: 0.1em 0 0.7em 0;
+        text-align: center;
+    }
+
+    .contato-doutor a {
+        font-size: 13px;
+    }
+}

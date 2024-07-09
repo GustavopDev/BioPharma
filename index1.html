@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logo-farmacia.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/carrossel.css">
+    <link rel="stylesheet" href="/CSS/categorias.css">
+    <link rel="stylesheet" href="CSS/cardProdutos.css">
+    <link rel="stylesheet" href="/CSS/entreContato.css">
+    <link rel="stylesheet" href="CSS/avaliacoes.css">
+    <link rel="stylesheet" href="/CSS/servicos.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <title>BioPharma</title>
+</head>
+
+<body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <div class="pre-carregamento">
+        <div class="efeito-carregamento">
+            <img src="imagens/preloader.gif" alt="Carregando...">
+        </div>
+    </div>
+
+    <header class="container-header hidden" id="inicio">
+        <nav class="navegacao">
+            <a href="" id="inicio">
+                <img class="logo-nav" src="imagens/logo farmacia2.png" alt="Logo do site">
+            </a>
+            <div class="navegar-pelo-site">
+                <a class="paragrafo-nav" href="#comprar">Comprar</a>
+                <a class="paragrafo-nav" href="#fale-conosco">Contato</a>
+                <a class="paragrafo-nav" href="#suporte">Suporte</a>
+            </div>
+            <div class="barra-de-pesquisa">
+                <button type="submit"><i class="bi bi-search" data-botao-pesquisa></i></button>
+                <p class="fodac">|</p>
+                <input type="text" placeholder="Pesquisar..." data-pesquisa>
+            </div>
+            <a href="#" class="carrinho-compra">
+                <p class="paragrafo-nav-compra">Meus pedidos</p>
+                <img src="imagens/cesta de compra.png" alt="">
+                <p class="total-itens">0</p>
+                <div class="mini-window" id="mini-window">
+                    <div id="cart-items"></div>
+                    <div class="total-value">
+                        <p>Total</p>
+                        <p id="total-value">R$ 0,00</p>
+                    </div>
+                    <button class="checkout-button">Finalizar Compra</button>
+                </div>
+            </a>
+        </nav>
+    </header>
+
+    <section class="container-departamentos hidden">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="imagens/banners/banner1.svg" alt="banner promocao"></div>
+                <div class="swiper-slide"><img src="imagens/banners/banner2.svg" alt="banner promocao"></div>
+                <div class="swiper-slide"><img src="imagens/banners/banner3.svg" alt="banner promocao"></div>
+                <div class="swiper-slide"><img src="imagens/banners/banner4.svg" alt="banner promocao"></div>
+                <div class="swiper-slide"><img src="imagens/banners/banner5.svg" alt="banner promocao"></div>
+                <!-- Adicione mais slides conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <section class="container-auto-ajuda hidden" id="comprar">
+        <div class="auto-ajuda">
+            <button name="Tudo" class="card-ajuda">
+                <img src="imagens/logo/categoria0.png" alt="Logo de departamentos">
+                <p>Todas as Categorias</p>
+            </button>
+            <button name="Medicamentos" class="card-ajuda">
+                <img src="imagens/logo/categoria1.png" alt="Logo de departamentos">
+                <p>Medicamentos</p>
+            </button>
+            <button name="Gripe e Resfriado" class="card-ajuda">
+                <img src="imagens/logo/categoria2.png" alt="Logo de departamentos">
+                <p>Gripe e Resfriado</p>
+            </button>
+            <button name="Fitness e Nutrição" class="card-ajuda">
+                <img src="imagens/logo/categoria3.png" alt="Logo de departamentos">
+                <p>Fitness e Nutrição</p>
+            </button>
+            <button name="Higiene e Beleza" class="card-ajuda">
+                <img src="imagens/logo/categoria4.png" alt="Logo de departamentos">
+                <p>Higiene e Beleza</p>
+            </button>
+            <button name="Aparelhos" class="card-ajuda">
+                <img src="imagens/logo/categoria5.png" alt="Logo de departamentos">
+                <p>Aparelhos</p>
+            </button>
+        </div>
+    </section>
+
+    <section class="container-produtos hidden" id="produtos">
+        <div class="produto" data-lista>
+
+        </div>
+    </section>
+
+    <section class="container-apresentacao hidden" id="fale-conosco">
+        <div class="apresentacao">
+            <div class="laterais laterais-esquerda">
+                <div class="cards-apresentacao"><img src="imagens/anuncio/anuncio1.svg" alt=""></div>
+                <div class="cards-apresentacao"><img src="imagens/anuncio/anuncio2.svg" alt=""></div>
+            </div>
+            <div class="meio">
+                <h1>Tudo para sua saúde e bem-estar ao seu alcance.</h1>
+                <p>Caso não tenha encontrado o que deseja ou tenha alguma dúvida, fale com os nossos doutores.</p>
+                <div class="contato-doutor">
+                    <a href="https://contate.me/gustavodev">Contato</a>
+                </div>
+                <img src="imagens/anuncio/imagem de pessoa.svg" alt="">
+            </div>
+            <div class="laterais laterais-direita">
+                <div class="cards-apresentacao"><img src="imagens/anuncio/anuncio3.svg" alt=""></div>
+                <div class="cards-apresentacao"><img src="imagens/anuncio/anuncio4.svg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-reviews-second hidden">
+        <div class="container-reviews-second">
+            <h1 class="titulo-avaliacoes">TRANSFORMANDO A EXPERIÊNCIA</h1>
+            <p class="substitulo-avaliacoes">O Segredo por Trás de uma Farmácia de Sucesso.</p>
+
+            <div class="swiper-wrapper-second">
+                <div class="swiper-slide review-card-second">
+                    <div class="review-content-second">
+                        <div class="image-second">
+                            <img src="imagens/rosto1.png" alt="Reviewer Image">
+                        </div>
+                        <div class="comment-second">
+                            "Ótima experiência de compra! A farmácia online tem um site fácil de navegar, com todas as
+                            informações claras sobre os produtos e prazos de entrega rápidos."
+                        </div>
+                        <div class="name-comment-second">
+                            <span class="reviewer-name-second">Vinicius P Bastos</span>
+                        </div>
+                        <div class="stars-second">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide review-card-second">
+                    <div class="review-content-second">
+                        <div class="image-second">
+                            <img src="imagens/rosto2.png" alt="Reviewer Image">
+                        </div>
+                        <div class="comment-second">
+                            "Serviço muito conveniente! Encomendei meus medicamentos sem sair de casa e recebi tudo bem
+                            embalado e dentro do prazo esperado."
+                        </div>
+                        <div class="name-comment-second">
+                            <span class="reviewer-name-second">Giovanna S Amaral</span>
+                        </div>
+                        <div class="stars-second">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide review-card-second">
+                    <div class="review-content-second">
+                        <div class="image-second">
+                            <img src="imagens/rosto3.png" alt="Reviewer Image">
+                        </div>
+                        <div class="comment-second">
+                            "Confiança total! Sempre que preciso de algo, recorro a esta farmácia online. Eles têm uma
+                            excelente seleção de produtos e um atendimento ao cliente eficiente."
+                        </div>
+                        <div class="name-comment-second">
+                            <span class="reviewer-name-second">Gabriela S Amaral</span>
+                        </div>
+                        <div class="stars-second">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-servicos hidden">
+        <div class="servicos">
+            <div class="card-servicos">
+                <img class="imagem-servicos" src="imagens/passos/entrega1.png" alt="">
+                <div class="textos-servicos">
+                    <h2>Entrega em Casa</h2>
+                    <p>Entrega pontual rapida e segura para o cliente.</p>
+                </div>
+            </div>
+            <div class="card-servicos">
+                <img class="imagem-servicos" src="imagens/passos/entrega2.png" alt="">
+                <div class="textos-servicos">
+                    <h2>Clique e Retire</h2>
+                    <p>Sò alguns passos para você comprar seu medicamento.</p>
+                </div>
+            </div>
+            <div class="card-servicos">
+                <img class="imagem-servicos" src="imagens/passos/entrega3.png" alt="">
+                <div class="textos-servicos">
+                    <h2>Suporte de Qualidade</h2>
+                    <p>Atendimento personalizado e eficiente para suas necessidades.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-footer hidden" id="suporte">
+        <div class="footer">
+            <div class="divisor-footer">
+                <div class="info">
+                    <img src="imagens/logo farmacia2.png" alt="">
+                    <h1>TUDO QUE VOCÊ ENCONTRA EM UM SÓ LUGAR</h1>
+                    <div class="rede-social-footer">
+                        <a href="https://www.instagram.com/guu.bastos/" class="rede-social">
+                            <i class="bi bi-instagram icons"></i>
+                        </a>
+                        <a href="https://contate.me/gustavodev" class="rede-social">
+                            <i class="bi bi-whatsapp icons"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gustavobastosdev/" class="rede-social">
+                            <i class="bi bi-linkedin icons"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <h1>Mandar email para suporte.</h1>
+                    <h2>Caso tenha ocorrido algum problema com o site.</h2>
+                    <div class="card">
+                        <form id="supportForm">
+                            <input type="text" id="nome" name="name" placeholder="Nome" required><br>
+                            <input type="email" id="email" name="email" placeholder="Email" required><br>
+                            <textarea id="mensagem" name="message" placeholder="Mensagem" rows="4"
+                                required></textarea><br>
+                            <button class="enviar" type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="cartoes-footer">
+                <p>copyright© 2024 <a class="ultima-linha" href="https://github.com/GustavopDev">Gustavo</a> | All
+                    rights reserved.</p>
+                <img src="imagens/cards.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <a class="icone-voltar-topo" href="#inicio">
+        <i class='fas fa-angle-up'></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/JS/carrosel.js"></script>
+    <script src="JS/pre-carregamento.js"></script>
+    <script src="/JS/mostrarProdutos.js" type="module"></script>
+    <script src="JS/buscarProduto.js" type="module"></script>
+
+</body>
+
+</html>

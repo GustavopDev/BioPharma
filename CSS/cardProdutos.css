@@ -1,0 +1,294 @@
+.container-produtos {
+    background-color: #fff;
+    padding: 1em 0 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+    gap: 26px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.produto-card {
+    border: 1px solid transparent;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+    border-radius: 7px;
+    color: black;
+    width: 14.6em;
+    height: 26em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0.7em 0 1em;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.produto-card:hover {
+    background-color: #F4FAFD;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+}
+
+.produto-card img {
+    width: 160px;
+    margin-bottom: 1em;
+    align-self: center;
+}
+
+.produto-card p {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(92, 92, 92);
+    text-align: left;
+    width: 92%;
+    height: 10%;
+    padding-bottom: 0.7em;
+    align-self: flex-start;
+}
+
+.produto-card h2 {
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(43, 43, 43);
+    padding-bottom: 1em;
+}
+
+.estrela-pai {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.2em;
+    margin: 0.4em 0;
+    width: 3em;
+    height: 25px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #50b1f9;
+}
+
+.estrela-pai p {
+    margin: 0;
+    padding: 0.4em 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    margin-right: 0.5em;
+}
+
+.bi-star {
+    color: white;
+}
+
+.botoes-produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #50b1f9;
+    margin-top: 1em;
+    padding-top: 1.4em;
+}
+
+.botoes-produto p {
+    font-size: 19.5px;
+    color: var(--cor-titulo);
+    font-weight: 700;
+    padding: 1em 0;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    font-size: 19.5px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #50b1f9;
+    box-shadow: 0px 2px 10px 0px #50b1f9;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #111e49;
+}
+
+
+
+
+
+@media (max-width: 1400px) {
+    .produto {
+        grid-template-columns: repeat(4, 1fr); /* Altera para 4 colunas */
+        gap: 10px; /* Ajusta o espaço entre os cards */
+        padding: 0 10vw; /* Adiciona espaço nas laterais */
+    }
+
+    .produto-card {
+        width: 11em; /* Diminui a largura dos cards */
+        height: 20em; /* Diminui a altura dos cards */
+        padding: 0.5em; /* Ajusta o padding interno */
+    }
+
+    .produto-card img {
+        width: 120px; /* Garante que a imagem ocupe toda a largura do card */
+        margin-bottom: 0.5em; /* Reduz o espaço abaixo da imagem */
+    }
+
+    .produto-card h2 {
+        font-size: 12px; /* Reduz o tamanho do título */
+        padding-bottom: 0.5em; /* Reduz o espaço abaixo do título */
+    }
+
+    .produto-card p {
+        font-size: 11px; /* Reduz o tamanho do texto */
+    }
+
+    .estrela-pai {
+        padding: 0.2em; /* Reduz o padding das estrelas */
+        margin: 0.2em 0; /* Reduz o espaço ao redor das estrelas */
+        width: 2.5em; /* Reduz a largura do contêiner das estrelas */
+        height: 20px; /* Reduz a altura do contêiner das estrelas */
+    }
+
+    .estrela-pai p {
+        font-size: 12px; /* Reduz o tamanho do texto das estrelas */
+        padding: 0.3em 0; /* Ajusta o padding interno das estrelas */
+        margin-right: 0.3em; /* Reduz o espaço à direita do texto das estrelas */
+    }
+
+    .botoes-produto p {
+        font-size: 16px; /* Reduz o tamanho do texto dos botões */
+        padding: 0.8em 0; /* Ajusta o padding interno dos botões */
+    }
+
+    .btn {
+        font-size: 16px; /* Reduz o tamanho do texto dos botões */
+        padding: 0.4em 0.8em; /* Ajusta o padding interno dos botões */
+    }
+
+    .container-produtos {
+        padding: 1em 0 2em 0;
+    }
+}
+
+
+@media (max-width: 915px) {
+    .produto {
+        grid-template-columns: repeat(3, 1fr); /* Altera para 3 colunas */
+        gap: 10px; /* Reduz o espaço entre os cards */
+        margin: 0 10vw; /* Ajusta o espaço nas laterais */
+    }
+
+    .produto-card {
+        width: 25vw; /* Diminui a largura dos cards */
+        height: 20em; /* Diminui a altura dos cards */
+        padding: 0.5em; /* Ajusta o padding interno */
+    }
+
+    .produto-card h2 {
+        font-size: 11px; /* Reduz o tamanho do título */
+        padding-bottom: 0.3em; /* Reduz o espaço abaixo do título */
+    }
+
+    .produto-card p {
+        font-size: 10px; /* Reduz o tamanho do texto */
+    }
+
+    .estrela-pai {
+        padding: 0.1em; /* Reduz o padding das estrelas */
+        margin: 0.1em 0; /* Reduz o espaço ao redor das estrelas */
+        width: 2em; /* Reduz a largura do contêiner das estrelas */
+        height: 15px; /* Reduz a altura do contêiner das estrelas */
+    }
+
+    .estrela-pai p {
+        font-size: 12px; /* Reduz o tamanho do texto das estrelas */
+        padding: 0.2em 0; /* Ajusta o padding interno das estrelas */
+        margin-right: 0.2em; /* Reduz o espaço à direita do texto das estrelas */
+    }
+
+    .botoes-produto p {
+        font-size: 14px; /* Reduz o tamanho do texto dos botões */
+        padding: 0.6em 0; /* Ajusta o padding interno dos botões */
+    }
+
+    .btn {
+        font-size: 20px; /* Reduz o tamanho do texto dos botões */
+        padding: 0.3em 0.6em; /* Ajusta o padding interno dos botões */
+    }
+
+    .estrela-pai{
+        width: 3em;
+        font-size: 13px;
+    }
+    .container-produtos {
+        padding: 1em 0 1em 0;
+    }
+    
+}
+
+
+
+
+@media (max-width: 600px) {
+    .produto {
+        grid-template-columns: repeat(2, 1fr); /* Altera para 3 colunas */
+        gap: 10px; /* Reduz o espaço entre os cards */
+        margin: 0 10vw; /* Ajusta o espaço nas laterais */
+    }
+
+    .produto-card {
+        width: 40vw; /* Diminui a largura dos cards */
+        height: 17em; /* Diminui a altura dos cards */
+
+    }
+
+    .produto-card h2 {
+        font-size: 10px; /* Reduz o tamanho do título */
+    }
+
+    .produto-card p {
+        font-size: 9px; /* Reduz o tamanho do texto */
+        align-self: flex-start; /* Alinha o texto à esquerda */
+        padding-bottom: 0.5em; /* Espaçamento abaixo do texto */
+    }
+
+    .estrela-pai {
+        width: 3em; /* Reduz a largura do contêiner das estrelas */
+        height: 15px; /* Reduz a altura do contêiner das estrelas */
+    }
+
+    .estrela-pai p {
+        font-size: 11px; /* Reduz o tamanho do texto das estrelas */
+    }
+
+    .botoes-produto {
+        flex-direction: column; /* Altera para coluna para botões abaixo do texto */
+        align-items: center; /* Centraliza os itens */
+        margin: 0.5em 0;
+        padding: 0.1em 0;
+    }
+
+    .botoes-produto p {
+        font-size: 16px; /* Reduz o tamanho do texto dos botões */
+        padding-top: 0.6em;
+    }
+
+    .btn {
+        font-size: 16px; /* Reduz o tamanho do texto dos botões */
+        width: 100%;
+        height: 2em;
+        padding: 0.1em;
+    }
+
+    .produto-card img {
+        width: 90px;
+    }
+}

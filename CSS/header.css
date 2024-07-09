@@ -1,0 +1,335 @@
+.container-header {
+    padding: 0.5em;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 1;
+    position: fixed;
+
+    font-family: "Poppins";
+}
+
+.container-header.show-header {
+    opacity: 1; 
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.navegacao2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.navegacao2 img{
+    width: 110px;
+}
+
+.navegacao img {
+    width: 110px;
+}
+
+.navegar-pelo-site {
+    display: flex;
+    justify-content: center;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    color: white;
+    width: 40em;
+}
+
+.navegar-pelo-site a:hover {
+    background-color: var(--cor-de-fundo1);
+    border-radius: 100px;
+}
+
+.paragrafo-nav{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: #111e49;
+}
+
+.carrinho-compra {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12em;
+    padding: 1em;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: #111e49;
+}
+
+.carrinho-compra:hover {
+    background-color: var(--cor-de-fundo1);
+    border-radius: 100px;
+}
+
+.carrinho-compra{
+    text-decoration: none;
+    font-size: 15px;
+    color: #111e49;
+}
+
+.carrinho-compra img{
+    width: 15px;
+    padding: 0 0.2em 0 1em;
+}
+
+.total-itens {
+    background-color: #50b1f9;
+    border-radius: 100%;
+    padding: 0.2em 0.4em;
+    font-size: 14px;
+}
+
+.mini-window {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 305px;
+    max-height: 400px; /* Define uma altura máxima */
+    overflow-y: auto; /* Adiciona rolagem vertical quando necessário */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Inicialmente oculto */
+    z-index: 1000;
+}
+
+.carrinho-compra:hover .mini-window {
+    display: block; /* Exibir ao passar o mouse */
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adiciona espaçamento entre os itens */
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px; /* Espaçamento entre a imagem e os detalhes do item */
+    background-color: var(--cor-de-fundo1);
+    padding: 1em;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column; /* Exibe os detalhes do item verticalmente */
+    flex-grow: 1; /* Permite que os detalhes do item cresçam para preencher o espaço disponível */
+}
+
+.item-details p {
+    margin: 0;
+    font-size: 14px;
+    width: 8em; /* Largura máxima para o nome do produto */
+    display: flex;
+    text-align: left;
+}
+
+.titulo-nome-produto {
+    color: var(--cor-titulo);
+    padding-bottom: 0.8em;
+}
+
+.valor-unidade-produto {
+    color: var(--cor-subtitulo);
+}
+
+.remove-item {
+    background: none; /* Remove qualquer fundo */
+    border: none; /* Remove qualquer borda */
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--cor-subtitulo); /* Define a cor do ícone para vermelho */
+    padding: 0; /* Remove o padding padrão */
+}
+
+.remove-item:hover {
+    color: #50b1f9; /* Cor ao passar o mouse */
+}
+
+.remove-item:focus {
+    outline: none; /* Remove o outline ao focar no botão */
+}
+
+.bi-trash3 {
+    color: inherit; /* Garante que a cor do ícone herda a cor definida para o botão */
+}
+
+.total-value {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-top: 1px solid #eeeeee;
+    padding: 2em 0;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.total-value p {
+    color: #b6b6b6;
+    font-size: 14px;
+}
+
+.checkout-section {
+    margin-top: 20px; /* Adiciona espaço acima da seção de finalização */
+}
+
+.checkout-button {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #50b1f9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: #111e49;
+}
+
+
+.barra-de-pesquisa {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 100px;
+
+    width: 20vw;
+    padding: 0.7em;
+}
+
+.barra-de-pesquisa input[type="text"] {
+    padding: 5px;
+    border: 1px solid transparent;
+    outline: none; 
+}
+
+.barra-de-pesquisa button[type="submit"] {
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.barra-de-pesquisa button[type="submit"] i {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111e49;
+}
+
+.fodac {
+    padding: 0 1em;
+}
+
+#menu-links {
+    display: none;
+}
+
+
+
+
+@media (max-width: 1200px) {
+    .navegar-pelo-site {
+        width: 24em; /* Reduzi a largura */
+    }
+
+    .paragrafo-nav {
+        font-size: 14px; /* Reduzi o tamanho da fonte */
+        padding: 0.5em 1em; /* Reduzi o padding */
+    }
+
+    .carrinho-compra {
+        width: 10em; /* Reduzi a largura */
+        padding: 0.5em; /* Reduzi o padding */
+        font-size: 13px; /* Reduzi o tamanho da fonte */
+    }
+
+    .fodac {
+        padding: 0 0.5em; /* Reduzi o padding */
+    }
+
+    .navegacao .logo-nav {
+        width: 90px;
+    }
+}
+
+@media (max-width: 800px) {
+    .navegacao {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navegar-pelo-site,
+    .carrinho-compra p{
+        display: none;
+    }
+
+    .paragrafo-nav {
+        font-size: 11px; /* Reduzi o tamanho da fonte */
+        padding: 0.5em 1em; /* Reduzi o padding */
+    }
+
+    .carrinho-compra {
+        width: 9em; /* Reduzi a largura */
+        padding: 0.5em; /* Reduzi o padding */
+    }
+
+    .fodac {
+        padding: 0 0.5em; /* Reduzi o padding */
+    }
+
+    .barra-de-pesquisa{
+        width: 300px;
+    }
+}
+
+@media (max-width: 550px) {
+    .navegacao .logo-nav {
+        width: 70px;
+    }
+    .logo-nav{
+        padding-right: 2em;
+    }
+    .barra-de-pesquisa{
+        width: 200px;
+        height: 13px;
+    }
+
+    .bi-search i{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .navegacao .logo-nav {
+        width: 60px;
+    }
+}
