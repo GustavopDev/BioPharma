@@ -18,6 +18,12 @@ BioPharma é um sistema de pedidos online desenvolvido para facilitar a compra d
 - JavaScript
 - Node.js
 
+# Como instalar o site
+Para executar o site BioPharma localmente, siga estes passos e execute no terminal:
+- cd BioPharma
+- npm install
+- json-server --watch produtos.json
+
 # Contato
 - LinkedIn: [Gustavo Bastos](https://www.linkedin.com/in/gustavobastosdev/)
 - Email: gustavo.pbastos20@gmail.com
