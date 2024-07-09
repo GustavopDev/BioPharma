@@ -10,7 +10,7 @@ BioPharma é um sistema de pedidos online desenvolvido para facilitar a compra d
 - **Contato via WhatsApp**: Após a seleção dos produtos, o cliente é direcionado para o WhatsApp com todos os detalhes do pedido, facilitando o processamento e envio via motoboy.
 
 ## Layout
-<img src="https://github.com/GustavopDev/BioPharma/blob/main/imagens/Foto%20do%20remedio.png?raw=true" alt="Captura de tela" width="600">
+![Captura de tela](https://github.com/GustavopDev/BioPharma/imagens/Foto-do-projeto.png)
 
 # 🚀 Tecnologias Utilizadas
 - HTML
